@@ -1,6 +1,6 @@
 org: aleynaalangil
-app: serverlessECR
-service: serverless ECR
+app: serverlessecr
+service: serverlessecr
 frameworkVersion: '3'
 
 provider:

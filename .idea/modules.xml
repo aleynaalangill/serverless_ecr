@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/serverless_ecr.iml" filepath="$PROJECT_DIR$/.idea/serverless_ecr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/serverlessecr.iml" filepath="$PROJECT_DIR$/.idea/serverlessecr.iml" />
     </modules>
   </component>
 </project>
