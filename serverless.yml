@@ -16,3 +16,6 @@ functions:
       - http: ANY /
 plugins:
   - serverless-plugin-typescript
+package:
+  excludeDevDependencies: true
+  individually: true
