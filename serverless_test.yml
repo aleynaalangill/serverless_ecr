@@ -1,5 +1,3 @@
-# serverless_test.yml
-
 org: aleynaalangil
 app: serverlessecr-test
 service: serverlessecr-test
