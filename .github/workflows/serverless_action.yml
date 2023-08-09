@@ -1,11 +1,11 @@
 # serverless_action.yml
 
-name: Deploy master branch
+name: Deploy main branch
 
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
