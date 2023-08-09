@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 
 
 app.get('/', (req:Request, res:Response) => {
-    res.send('Hello World!');
+    res.send('Hello world from dev branch for the sake of GOD!');
 });
 
 app.listen(5006, () => {
