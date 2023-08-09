@@ -1,0 +1,21 @@
+# serverless_test.yml
+
+org: aleynaalangil
+app: serverlessecr-test
+service: serverlessecr-test
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  deploymentMethod: direct
+  stage: test
+
+functions:
+  app:
+    handler: src/index.handler
+    events:
+      - http: ANY /
+
+plugins:
+  - serverless-plugin-typescript
